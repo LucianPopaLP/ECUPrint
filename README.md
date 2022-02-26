@@ -28,3 +28,5 @@ There are raw voltage data files for 54 ECUs and 433 IDs from 10 different vehic
 ## Contacts
 * lucian.popa [at] aut.upt.ro
 * bogdan.groza [at] aut.upt.ro
+* camil.jichici [at] aut.upt.ro
+* pal-stefan.murvay [at] aut.upt.ro

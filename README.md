@@ -39,12 +39,10 @@ The dataset is structured as described below. We provide the raw CAN voltage sam
 
 File | Download | Version | Date | Notes
 ---- | :------: | :-------: | :--------: | :------
-**[ECUPrint] CAN logs.zip** | [link]() | 1.0 | 02/26/2022 | ECUPrint complete dataset
-**[ECUPrint] CAN voltage samples with ECU allocation** | [link]() | 1.0 | 02/26/2022 | ECUPrint Dacia Duster dataset
-**[ECUPrint] CAN voltage samples under environmental variations.zip** | [link]() | 1.0 | 02/26/2022 | ECUPrint Dacia Logan dataset
-**[ECUPrint] CAN voltage samples (full).zip** | [link]() | 1.0 | 02/26/2022 | ECUPrint Ford Ecosport dataset
-
-## Data Organization
+**[ECUPrint] CAN logs.zip** | [link]() | 1.0 | 02/26/2022 | ECUPrint CAN logs
+**[ECUPrint] CAN voltage samples with ECU allocation** | [link]() | 1.0 | 02/26/2022 | ECUPrint CAN voltage samples, allocated per ECU
+**[ECUPrint] CAN voltage samples under environmental variations.zip** | [link]() | 1.0 | 02/26/2022 | ECUPrint CAN voltage samples collected under environmental variations
+**[ECUPrint] CAN voltage samples (full).zip** | [link]() | 1.0 | 02/26/2022 | ECUPrint complete voltage samples (contains voltage samples from previous two archives)
 
 ## File structure ##
 

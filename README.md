@@ -46,7 +46,21 @@ File | Download | Version | Date | Notes
 
 ## Data Organization
 
-There are raw voltage data files for 54 ECUs and 433 IDs from 10 different vehicles, one of them being a heavy-duty vehicle that is compliant to the SAE J1939 standard. They are structured per-vehicle and per-ECU as they were identified in our work.
+## File structure ##
+
+**CAN logs** are stored in txt format and have data structured based on the XL driver library output from Vector (see [Vector XL webpage](https://www.vector.com/int/en/products/products-a-z/libraries-drivers/xl-driver-library/#c75493) for more details).
+
+**Voltage data** is stored in csv files which have some metadata before the raw voltage samples. The metadata contains the following information in the first rows from each file:
+
+[ID (hexadecimal)], \
+[ID (decimal)], \
+[DLC (decimal)], \
+[Timestamp, Channel A (CANH), Channel B (CANL)], \
+[Measurement unit],
+
+The metadata is followed by the actual raw voltage samples:
+
+[Voltage data (2000 samples/file)].
 
 ## Contacts
 * lucian.popa [at] aut.upt.ro

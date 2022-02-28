@@ -58,6 +58,217 @@ File | Download | Version | Date | Notes
 **[ECUPrint] CAN voltage samples under environmental variations.zip** | [link]() | 1.0 | 02/26/2022 | ECUPrint CAN voltage samples collected under environmental variations
 **[ECUPrint] CAN voltage samples (full).zip** | [link]() | 1.0 | 02/26/2022 | ECUPrint complete voltage samples (contains voltage samples from previous two archives)
 
+# Folder structure #
+
+**CAN logs**
+|
+|------ Dacia Duster
+|
+|------ Dacia Logan
+|
+|------ Ford Ecosport
+|
+|------ Ford Fiesta
+|
+|------ Ford Kuga
+|
+|------ Honda Civic
+|
+|------ Hyundai i20
+|
+|------ Hyundai ix35
+|
+|------ John Deere Tractor
+|
+|------ Opel Corsa
+
+
+**CAN voltage samples with ECU allocation**
+|
+|------ Dacia Duster
+|        |------ ECU1
+|        |------ ECU2
+|        |------ ECU3
+|
+|------ Dacia Logan
+|        |------ ECU1
+|        |------ ECU2
+|        |------ ECU3
+|        |------ ECU4
+|        |------ ECU5
+|        |------ ECU6
+|
+|------ Ford Ecosport
+|        |------ ECU1
+|        |------ ECU2
+|        |------ ECU3
+|        |------ ECU4
+|        |------ Unclassified
+|
+|------ Ford Fiesta
+|        |------ 1_0min (car start)
+|                  |------ ECU1
+|                  |------ ECU2
+|                  |------ ECU3
+|                  |------ ECU4
+|                  |------ ECU5
+|                  |------ ECU6
+|                  |------ Unclassified
+|        |------ 2_10min (10 minutes after car start)
+|                  |------ ECU1
+|                  |------ ECU2
+|                  |------ ECU3
+|                  |------ ECU4
+|                  |------ ECU5
+|                  |------ ECU6
+|                  |------ Unclassified
+|
+|------ Ford Kuga
+|        |------ ECU1
+|        |------ ECU2
+|        |------ ECU3
+|        |------ ECU4
+|        |------ ECU5
+|        |------ ECU6
+|        |------ ECU7
+|        |------ ECU8
+|        |------ ECU9
+|
+|------ Honda Civic
+|        |------ ECU1
+|        |------ ECU2
+|        |------ ECU3
+|        |------ ECU4
+|        |------ ECU5
+|        |------ ECU6
+|
+|------ Hyundai i20
+|        |------ ECU1
+|        |------ ECU2
+|        |------ ECU3
+|        |------ ECU4
+|        |------ ECU5
+|        |------ ECU6
+|        |------ ECU7
+|
+|------ Hyundai ix35
+|        |------ ECU1
+|        |------ ECU2
+|        |------ ECU3
+|        |------ ECU4
+|        |------ ECU5
+|        |------ ECU6
+|
+|------ John Deere Tractor
+|        |------ ECU1
+|        |------ ECU2
+|        |------ ECU3
+|        |------ Unclassified
+|
+|------ Opel Corsa
+|        |------ ECU1
+|        |------ ECU2
+|        |------ ECU3
+|        |------ ECU4
+
+
+**CAN voltage samples under environmental variations**
+|
+|------ Ford Fiesta
+|        |------ 1_30min (30 minutes after car start)
+|                  |------ ECU1
+|                  |------ ECU2
+|                  |------ ECU3
+|                  |------ ECU4
+|                  |------ ECU5
+|                  |------ ECU6
+|                  |------ Unclassified
+|        |------ 2_60min (60 minutes after car start)
+|                  |------ ECU1
+|                  |------ ECU2
+|                  |------ ECU3
+|                  |------ ECU4
+|                  |------ ECU5
+|                  |------ ECU6
+|                  |------ Unclassified
+|------ Honda Civic
+|        |------ 1_10min_static (10 minutes after car start, stationary car)
+|                  |------ ECU1
+|                  |------ ECU2
+|                  |------ ECU3
+|                  |------ ECU4
+|                  |------ ECU5
+|                  |------ ECU6
+|        |------ 2_30min_static (30 minutes after car start, stationary car)
+|                  |------ ECU1
+|                  |------ ECU2
+|                  |------ ECU3
+|                  |------ ECU4
+|                  |------ ECU5
+|                  |------ ECU6
+|        |------ 3_60min_static (60 minutes after car start, stationary car)
+|                  |------ ECU1
+|                  |------ ECU2
+|                  |------ ECU3
+|                  |------ ECU4
+|                  |------ ECU5
+|                  |------ ECU6
+|        |------ 4_10min_static (10 minutes after car start, moving car)
+|                  |------ ECU1
+|                  |------ ECU2
+|                  |------ ECU3
+|                  |------ ECU4
+|                  |------ ECU5
+|                  |------ ECU6
+|        |------ 5_30min_static (30 minutes after car start, moving car)
+|                  |------ ECU1
+|                  |------ ECU2
+|                  |------ ECU3
+|                  |------ ECU4
+|                  |------ ECU5
+|                  |------ ECU6
+|        |------ 6_60min_static (60 minutes after car start, moving car)
+|                  |------ ECU1
+|                  |------ ECU2
+|                  |------ ECU3
+|                  |------ ECU4
+|                  |------ ECU5
+|                  |------ ECU6
+
+
+**CAN voltage samples (full)**
+|
+|------ Dacia Duster
+|
+|------ Dacia Logan
+|
+|------ Ford Ecosport
+|
+|------ Ford Fiesta
+|        |------ 1_0min (car start)
+|        |------ 2_10min (10 minutes after car start)
+|        |------ ENVIRONMENTAL_1_30min (30 minutes after car start)
+|        |------ ENVIRONMENTAL_2_60min (60 minutes after car start)
+|
+|------ Ford Kuga
+|
+|------ Honda Civic
+|        |------ 1_0min (car start)
+|        |------ ENVIRONMENTAL_1_10min_static (10 minutes after car start, stationary car)
+|        |------ ENVIRONMENTAL_2_30min_static (30 minutes after car start, stationary car)
+|        |------ ENVIRONMENTAL_3_60min_static (60 minutes after car start, stationary car)
+|        |------ ENVIRONMENTAL_4_10min_static (10 minutes after car start, moving car)
+|        |------ ENVIRONMENTAL_5_30min_static (30 minutes after car start, moving car)
+|        |------ ENVIRONMENTAL_6_60min_static (60 minutes after car start, moving car)
+|
+|------ Hyundai i20
+|
+|------ Hyundai ix35
+|
+|------ John Deere Tractor
+|
+|------ Opel Corsa
+
 ## File structure ##
 
 **CAN logs** are stored in txt format and have data structured based on the XL driver library output from Vector (see [Vector XL webpage](https://www.vector.com/int/en/products/products-a-z/libraries-drivers/xl-driver-library/#c75493) for more details).

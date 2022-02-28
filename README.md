@@ -1,3 +1,17 @@
+# ECUPrint Paper #
+If you use or discuss our dataset in your work, please cite our paper (bibtex citation below).  A PDF link for our paper can be found at [http://www.aut.upt.ro/~bgroza/Papers/j1939_fprint.pdf](http://www.aut.upt.ro/~bgroza/Papers/j1939_fprint.pdf).
+
+```
+@article{Popa22ECUPrint,
+title={ECUPrint - Physical Fingerprinting Electronic Control Units on CAN Buses inside Cars and SAE J1939 Compliant Vehicles},
+author={Popa, Lucian and Groza, Bogdan and Jichici, Camil and Murvay, Pal-Stefan},
+journal={IEEE Transactions on Information Forensics & Security},
+year={2022},
+publisher={IEEE}
+}
+```
+
+
 # ECUPrint Dataset
 
 The ECUPrint dataset is a collection of raw CAN voltage samples and CAN logs. Skew and voltage data is collected from 10 vehicles, ranging from small cars to SUVs and a heavy-duty vehicle, totaling 54 ECUs. In order to enable the CAN data collection we employed two devices: a CANcaseXL and a Pico Scope 5000 Series. The voltage collection setup is shown below: the CAN bus is accessed via the OBD-II pins with the previously mentioned tools.

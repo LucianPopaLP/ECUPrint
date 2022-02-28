@@ -40,7 +40,7 @@ When merging multiple features, i.e., the mean, max, bit and plateau time, the o
 
 ## Dataset content ##
 
-The dataset is structured as described below. We provide the raw CAN voltage samples measured with the PicoScope with a sample interval of 2 nanoseconds (sample rate was set to 500 MS/s) and separate CAN logs with frames collected with a Vector CANCaseXL device. For Honda Civic and Ford Fiesta there are two sets of raw CAN voltage samples and two CAN logs. The first set was collected after vehicle startup (cold engine) and the second after 1 hour drive (warm engine).
+The dataset is structured as described below. We provide the raw CAN voltage samples measured with the PicoScope with a sample interval of 2 nanoseconds (sample rate was set to 500 MS/s) and separate CAN logs with frames collected with a Vector CANCaseXL device. For Honda Civic and Ford Fiesta there are more sets of raw CAN voltage samples and two CAN logs for each. The first sets were collected after vehicle startup (cold engine) and other sets were collected after 15 minutes, 30 minutes and 1 hour drive (warm engine).
 
 <ol type="a">
   <li>CAN logs (note that the log file contains several additional IDs for John Deere, Ford Ecosport and Fiesta which were on-event and voltage data cannot be retrieved for all of them or they could not associated to a specific ECU)</li>

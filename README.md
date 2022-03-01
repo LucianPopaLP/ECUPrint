@@ -22,13 +22,13 @@ If you use or discuss our dataset in your work, please cite our paper (bibtex ci
 
 ## Voltage data ##
 
-For each frame carrying a specific ID we have collected samples for an isolated dominant bit which is a transition from recessive to dominant and back (the shape of an isolated bit, along with the features we extract is shown below). We use the following voltage features: i) the mean voltage level, ii) max voltage level and iii) bit time. In addition to these, which are commonly used in other works, we also note that the iv) plateau time of the bit also provides good indications on the sender ECU, so we introduce this as an additional metric.
+For each frame carrying a specific ID we have collected samples for an isolated dominant bit which is a transition from recessive to dominant and back (the shape of an isolated bit, along with the features we extract is shown below). We use the following voltage features: i) the mean voltage level, ii) max voltage level and iii) bit time. In addition to these metrics, which are commonly used in other works, we also note that the iv) plateau time of the bit also provides good indications on the sender ECU, so we introduce this as an additional metric.
 
 ![Raw voltage sample and voltage features](https://github.com/LucianPopaLP/ECUPrint/blob/main/images/voltage_369_bis.png?raw=true)
 
-## Skew data ##
+## Skew vs. voltage data fingerprints ##
 
-To extract the clock skews, we use the CAN logs which contain the frame identifiers and associated timestamps. In order to perform data collection for skews we used the XL Driver Library and recorded the available CAN frames through the diagnostics port. We logged CAN traffic over periods of 5 to 10 minutes for each vehicle while it was operational.
+To extract the clock skews, we use the CAN logs which contain the frame identifiers and associated timestamps. In order to perform data collection for skews we used the XL Driver Library and recorded the available CAN frames through the diagnostics port. We logged CAN traffic over periods of 5 to 10 minutes for each vehicle while it was operational. Skews provide a good separation for ECUs in the same vehicle, but there are still slight overlaps between multiple ECUs in distinct vehicles. Merging multiple features, i.e., the mean, max, bit and plateau time, makes the separation much clearer. This is visible in the two images shown below.
 
 Skews provide a good separation for ECUs in the same vehicle as shown in the image below.
 
@@ -40,13 +40,13 @@ When merging multiple features, i.e., the mean, max, bit and plateau time, the o
 
 ## Dataset content ##
 
-The dataset is structured as described below. We provide the raw CAN voltage samples measured with the PicoScope with a sample interval of 2 nanoseconds (sample rate was set to 500 MS/s) and separate CAN logs with frames collected with a Vector CANCaseXL device. For Honda Civic and Ford Fiesta there are more sets of raw CAN voltage samples and two CAN logs for each. The first sets were collected after vehicle startup (cold engine) and other sets were collected after 15 minutes, 30 minutes and 1 hour drive (warm engine).
+**Dataset content** The dataset is structured as described below. We provide the raw CAN voltage samples measured with the PicoScope with a sample interval of 2 nanoseconds (sample rate was set to 500 MS/s) and separate CAN logs with frames collected with a Vector CANCaseXL device. For the Honda Civic and Ford Fiesta additional datasets are available. The first datasets were collected after vehicle startup (cold engine) and other sets after 15 minutes, 30 minutes and 1 hour drive (warm engine). The datasets are available in four distinct packages:
 
 <ol type="a">
-  <li>CAN logs (note that the log file contains several additional IDs for John Deere, Ford Ecosport and Fiesta which were on-event and voltage data cannot be retrieved for all of them or they could not associated to a specific ECU)</li>
-  <li>CAN voltage samples for 10 cars (data is also allocated to specific ECUs based on the analysis in our work, note that this distribution is to the best we could ascertain. Note that there are several bits in a folder named Unclassified since these are on-event and skews could not be computed them) (181,874 sampled bits)</li>
-  <li>CAN voltage samples under environmental variations for 2 cars (Ford Fiesta and Honda Civic) (47,636 sampled bits)</li>
-  <li>all voltage as a single archive (229,510 sampled bits)</li>
+  <li>CAN voltages collected for 10 cars (181,874 sampled bits). Data is allocated to specific ECUs based on the analysis in our work. Note that this distribution is to the best we could ascertain based on our analysis, we do not claim this separation to be absolute. There are several IDs in folder named unclassified which were on-event and for which skews could not be computed and which are not part of our main analysis.</li>
+  <li>CAN voltages under environmental variations (47,636 sampled bits). These datasets are for 2 of the cars that we analyze: Ford Fiesta and Honda Civic.</li>
+  <li>All voltage as a single archive (229,510 sampled bits) which includes all data for a) and b).</li>
+  <li>CAN logs is the data logged from the bus with the CANCaseXL. For 3 out of the 10 cars (John Deere, Ford Ecosport and Fiesta), the log file contains several IDs which were on-event and for which voltage data was not collected and are not associated to a specific ECU. More details on these are available in the paper.</li>
 </ol>
 
 ## Data links ##
@@ -271,7 +271,7 @@ File | Download | Version | Date | Notes
 
 ## File structure ##
 
-**CAN logs** are stored in txt format and have data structured based on the XL driver library output from Vector (see [Vector XL webpage](https://www.vector.com/int/en/products/products-a-z/libraries-drivers/xl-driver-library/#c75493) for more details).
+**CAN logs** are stored in txt format and have data structured based on the XL driver library output from Vector (see documents from [Vector XL webpage](https://www.vector.com/int/en/products/products-a-z/libraries-drivers/xl-driver-library/#c75493 for more details).
 
 **Voltage data** is stored in csv format and have some metadata included before the raw voltage samples.. The metadata contains the following information in the first rows from each file:
 

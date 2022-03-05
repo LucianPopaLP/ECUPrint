@@ -6,13 +6,15 @@ The ECUPrint dataset is a collection of raw CAN voltage samples and CAN logs. Sk
 
 If you use or discuss our dataset in your work, please cite our paper (bibtex citation below).  A PDF link for our paper can be found at [TBD].
 
-## Voltage data ##
+## Concept ##
+
+**Voltage data** 
 
 For each frame carrying a specific ID we have collected samples for an isolated dominant bit which is a transition from recessive to dominant and back (the shape of an isolated bit, along with the features we extract is shown below). We use the following voltage features: i) the mean voltage level, ii) max voltage level and iii) bit time. In addition to these metrics, which are commonly used in other works, we also note that the iv) plateau time of the bit also provides good indications on the sender ECU, so we introduce this as an additional metric.
 
 ![Raw voltage sample and voltage features](https://github.com/LucianPopaLP/ECUPrint/blob/main/images/voltage_369_bis.png?raw=true)
 
-## Skew vs. voltage data fingerprints ##
+**Skew vs. voltage data fingerprints**
 
 To extract the clock skews, we use the CAN logs which contain the frame identifiers and associated timestamps. In order to perform data collection for skews we used the XL Driver Library and recorded the available CAN frames through the diagnostics port. We logged CAN traffic over periods of 5 to 10 minutes for each vehicle while it was operational. Skews provide a good separation for ECUs in the same vehicle, but there are still slight overlaps between multiple ECUs in distinct vehicles. Merging multiple features, i.e., the mean, max, bit and plateau time, makes the separation much clearer. This is visible in the two images shown below.
 
@@ -24,7 +26,7 @@ When merging multiple features, i.e., the mean, max, bit and plateau time, the o
 
 ![Voltage based inter-distances and intra-distances](https://github.com/LucianPopaLP/ECUPrint/blob/main/images/voltage_all_distances.png?raw=true)
 
-## Dataset content ##
+## Dataset ##
 
 **Dataset content** The dataset is structured as described below. We provide the raw CAN voltage samples measured with the PicoScope with a sample interval of 2 nanoseconds (sample rate was set to 500 MS/s) and separate CAN logs with frames collected with a Vector CANCaseXL device. For the Honda Civic and Ford Fiesta additional datasets are available. The first datasets were collected after vehicle startup (cold engine) and other sets after 15 minutes, 30 minutes and 1 hour drive (warm engine). The datasets are available in four distinct packages:
 

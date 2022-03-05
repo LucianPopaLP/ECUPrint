@@ -53,6 +53,8 @@ Number | Vehicle | Model year | No. of IDs | No. of identified ECUs | No. of col
 (x) | Ford Ecosport | 2018-2021 | 87 | 4 | 22,808 | 759,421
 **Total** | **-** | **-** | **432** | **54** | **229,510** | **8,213,881**
 
+![The ECUs identified in the vehicles](https://github.com/LucianPopaLP/ECUPrint/blob/main/images/vehicle_ecus.png?raw=true)
+
 ## Data links ##
 
 File | Download | Version | Date | Notes

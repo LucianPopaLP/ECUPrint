@@ -37,6 +37,22 @@ When merging multiple features, i.e., the mean, max, bit and plateau time, the o
   <li>CAN logs is the data logged from the bus with the CANCaseXL. For 3 out of the 10 cars (John Deere, Ford Ecosport and Fiesta), the log file contains several IDs which were on-event and for which voltage data was not collected and are not associated to a specific ECU. More details on these are available in the paper.</li>
 </ol>
 
+**Summary of devices and associated measurements**
+
+Number | Vehicle | Model year | No. of IDs | No. of identified ECUs | No. of collected bits (voltage) | No. of collected frames (skew) 
+---- | :------: | :-------: | :--------: | :--------: | :--------: | :-----
+(i) | Honda Civic | 2012-2017 | 43 | 6 | 40,073 | 1,039,512 | 
+(ii) | Opel Corsa | 2006-2014 | 29 | 4 | 9,187 | 442,992
+(iii) | Hyundai i20 | 2014-2020 | 40 | 7 | 17,767 | 616,296
+(iv) | John Deere Tractor | 2010-2018 | 33 | 3 | 4,021 | 154,779
+(v) | Dacia Duster | 2010-2017 | 12 | 3 | 9,086 | 247,154
+(vi) | Dacia Logan | 2012-2019 | 46 | 6 | 31,579 | 629,662
+(vii) | Hyundai ix35 | 2009-2015 | 26 | 6 | 23,104 | 847,161
+(viii) | Ford Fiesta | 2017-2020 | 46 | 6 | 43,861 | 2,243,359
+(ix) | Ford Kuga | 2013-2019 | 70 | 9 | 28,024 | 1,233,545
+(x) | Ford Ecosport | 2018-2021 | 87 | 4 | 22,808 | 759,421
+**Total** | **-** | **-** | **432** | **54** | **229,510** | **8,213,881**
+
 ## Data links ##
 
 File | Download | Version | Date | Notes

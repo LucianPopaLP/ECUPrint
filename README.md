@@ -275,7 +275,7 @@ File | Download | Version | Date | Notes
 
 ## File structure ##
 
-**CAN logs** are stored in txt format and have data structured based on the XL driver library output from Vector (see documents from [Vector XL webpage](https://www.vector.com/int/en/products/products-a-z/libraries-drivers/xl-driver-library/#c75493 for more details).
+**CAN logs** are stored in txt format and have data structured based on the XL driver library output from Vector (see documents from [Vector XL webpage](https://www.vector.com/int/en/products/products-a-z/libraries-drivers/xl-driver-library/#c75493) for more details).
 
 **Voltage data** is stored in csv format and have some metadata included before the raw voltage samples.. The metadata contains the following information in the first rows from each file:
 

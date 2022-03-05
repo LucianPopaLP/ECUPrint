@@ -39,10 +39,10 @@ When merging multiple features, i.e., the mean, max, bit and plateau time, the o
 
 File | Download | Version | Date | Notes
 ---- | :------: | :-------: | :--------: | :------
-**[ECUPrint] CAN logs.zip** | [link]() | 1.0 | 02/26/2022 | ECUPrint CAN logs
-**[ECUPrint] CAN voltage samples with ECU allocation** | [link]() | 1.0 | 02/26/2022 | ECUPrint CAN voltage samples, allocated per ECU
-**[ECUPrint] CAN voltage samples under environmental variations.zip** | [link]() | 1.0 | 02/26/2022 | ECUPrint CAN voltage samples collected under environmental variations
-**[ECUPrint] CAN voltage samples (full).zip** | [link]() | 1.0 | 02/26/2022 | ECUPrint complete voltage samples (contains voltage samples from previous two archives)
+**[ECUPrint] CAN voltage samples with ECU allocation** | [link](https://1drv.ms/u/s!AvhVGvaGC7Xq2egSV1cGK3Vbha2nSw?e=xUxPmY) | 1.0 | 02/26/2022 | ECUPrint CAN voltage samples, allocated per ECU
+**[ECUPrint] CAN voltage samples under environmental variations.zip** | [link](https://1drv.ms/u/s!AvhVGvaGC7Xq2egRvgL_LE3JTRxvaQ?e=7hdqIh) | 1.0 | 02/26/2022 | ECUPrint CAN voltage samples collected under environmental variations
+**[ECUPrint] CAN voltage samples (full).zip** | [link](https://1drv.ms/u/s!AvhVGvaGC7Xq2egQBhg5RLJwRGeJNQ?e=38oyFQ) | 1.0 | 02/26/2022 | ECUPrint complete voltage samples (contains voltage samples from previous two archives)
+**[ECUPrint] CAN logs.zip** | [link](https://1drv.ms/u/s!AvhVGvaGC7Xqz9Z42wlG4iKsD6x0wg?e=cYZfXM) | 1.0 | 02/26/2022 | ECUPrint CAN logs
 
 # Folder structure #
 

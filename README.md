@@ -4,8 +4,6 @@ The ECUPrint dataset is a collection of raw CAN voltage samples and CAN logs. Sk
 
 ![Data collection setup](https://github.com/LucianPopaLP/ECUPrint/blob/main/images/voltage_setup.png?raw=true)
 
-If you use or discuss our dataset in your work, please cite our paper (bibtex citation below).  A PDF link for our paper can be found at [TBD].
-
 ## Concept ##
 
 **Voltage data** 

@@ -271,7 +271,7 @@ File | Download | Version | Date | Notes
 
 The metadata is followed by the actual raw voltage samples:
 
-[Voltage data (2000 samples/file)].
+[Voltage data (2000 samples/file for cars and 2700 samples/file for the John Deere tractor)].
 
 # ECUPrint Paper #
 Feel free to use our dataset for research purposes by giving credit to our paper below.

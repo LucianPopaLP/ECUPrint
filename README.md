@@ -53,7 +53,7 @@ Number | Vehicle | Model year | No. of IDs | No. of identified ECUs | No. of col
 
 ![The ECUs identified in the vehicles](https://github.com/LucianPopaLP/ECUPrint/blob/main/images/vehicle_ecus.png?raw=true)
 
-Numerical data for skews and voltage features determined in our work together with classification per ECUs for each vehicle are presented in the [supplemental material](https://github.com/LucianPopaLP/ECUPrint/blob/main/documents/supplemental_material.pdf).
+Numerical data for skews and voltage features determined in our work together with ID classification per ECUs for each vehicle based on the features are presented in the [supplemental material](https://github.com/LucianPopaLP/ECUPrint/blob/main/documents/supplemental_material.pdf).
 
 ## Data links ##
 

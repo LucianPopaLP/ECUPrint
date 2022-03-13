@@ -66,7 +66,7 @@ File | Download | Notes
 **[ECUPrint] CAN voltage samples with ECU allocation.zip** | [link1](https://1drv.ms/u/s!AvhVGvaGC7Xq2egSV1cGK3Vbha2nSw?e=xUxPmY) <br /> [link2](http://www.aut.upt.ro/~bgroza/projects/[ECUPrint]%20CAN%20voltage%20samples%20with%20ECU%20allocation.zip) | ECUPrint CAN voltage samples, allocated per ECU
 **[ECUPrint] CAN voltage samples under environmental variations.zip** | [link1](https://1drv.ms/u/s!AvhVGvaGC7Xq2egRvgL_LE3JTRxvaQ?e=7hdqIh) <br /> [link2](http://www.aut.upt.ro/~bgroza/projects/[ECUPrint]%20CAN%20voltage%20samples%20under%20environmental%20variations.zip) | ECUPrint CAN voltage samples collected under environmental variations
 **[ECUPrint] CAN voltage samples (full).zip** | [link1](https://1drv.ms/u/s!AvhVGvaGC7Xq2egQBhg5RLJwRGeJNQ?e=38oyFQ) <br /> [link2](http://www.aut.upt.ro/~bgroza/projects/[ECUPrint]%20CAN%20voltage%20samples%20(full).zip) | ECUPrint complete voltage samples (contains voltage samples from previous two archives)
-**[ECUPrint] CAN logs.zip** | [link1 (OneDrive)](https://1drv.ms/u/s!AvhVGvaGC7Xqz9Z42wlG4iKsD6x0wg?e=cYZfXM) <br /> [link2](http://www.aut.upt.ro/~bgroza/projects/[ECUPrint]%20CAN%20logs.zip) | ECUPrint CAN logs
+**[ECUPrint] CAN logs.zip** | [link1](https://1drv.ms/u/s!AvhVGvaGC7Xqz9Z42wlG4iKsD6x0wg?e=cYZfXM) <br /> [link2](http://www.aut.upt.ro/~bgroza/projects/[ECUPrint]%20CAN%20logs.zip) | ECUPrint CAN logs
 
 # Folder structure #
 

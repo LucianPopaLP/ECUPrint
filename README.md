@@ -298,7 +298,7 @@ The metadata is followed by the actual raw voltage samples:
 # ECUPrint Paper #
 Feel free to use our dataset for research purposes by giving credit to our paper below.
 
-L. Popa, B. Groza, C. Jichici and P-S. Murvay, "ECUPrint - Physical Fingerprinting Electronic Control Units on CAN Buses inside Cars and SAE J1939 Compliant Vehicles", IEEE Transactions on Information Forensics & Security, accepted 2022. [pdf](https://www.aut.upt.ro/~bgroza/Papers/ecuprint.pdf)
+L. Popa, B. Groza, C. Jichici and P-S. Murvay, "ECUPrint—Physical Fingerprinting Electronic Control Units on CAN Buses Inside Cars and SAE J1939 Compliant Vehicles." IEEE Transactions on Information Forensics and Security 17 (2022): 1185-1200. [pdf](https://www.aut.upt.ro/~bgroza/Papers/ecuprint.pdf)
 
 ```
 @article{popa2022ecuprint,

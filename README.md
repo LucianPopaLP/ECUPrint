@@ -4,7 +4,7 @@ Information related to our work, the dataset, the publication and contacts are d
 
 # ECUPrint Dataset
 
-The ECUPrint dataset is a collection of raw CAN voltage samples and CAN logs. Skew and voltage data is collected from 10 vehicles, ranging from small cars to SUVs and a heavy-duty vehicle, totaling 54 ECUs. In order to enable the CAN data collection we employed two devices: a CANcaseXL and a Pico Scope 5000 Series. The voltage collection setup is shown below: the CAN bus is accessed via the OBD-II pins with the previously mentioned tools.
+The ECUPrint dataset is a collection of raw CAN voltage samples and CAN logs (jump to [Download links](#data-links)). Skew and voltage data is collected from 10 vehicles, ranging from small cars to SUVs and a heavy-duty vehicle, totaling 54 ECUs. In order to enable the CAN data collection we employed two devices: a CANcaseXL and a Pico Scope 5000 Series. The voltage collection setup is shown below: the CAN bus is accessed via the OBD-II pins with the previously mentioned tools.
 
 ![Data collection setup](https://github.com/LucianPopaLP/ECUPrint/blob/main/images/voltage_setup.png?raw=true)
 
@@ -63,10 +63,10 @@ Numerical data for skews and voltage features determined in our work together wi
 
 File | Download | Notes
 --- | :---------: | :----
-**[ECUPrint] CAN voltage samples with ECU allocation.zip** | [link1](https://1drv.ms/u/s!AvhVGvaGC7Xq2egSV1cGK3Vbha2nSw?e=xUxPmY) <br /> [link2](http://www.aut.upt.ro/~bgroza/projects/[ECUPrint]%20CAN%20voltage%20samples%20with%20ECU%20allocation.zip) | ECUPrint CAN voltage samples, allocated per ECU
-**[ECUPrint] CAN voltage samples under environmental variations.zip** | [link1](https://1drv.ms/u/s!AvhVGvaGC7Xq2egRvgL_LE3JTRxvaQ?e=7hdqIh) <br /> [link2](http://www.aut.upt.ro/~bgroza/projects/[ECUPrint]%20CAN%20voltage%20samples%20under%20environmental%20variations.zip) | ECUPrint CAN voltage samples collected under environmental variations
-**[ECUPrint] CAN voltage samples (full).zip** | [link1](https://1drv.ms/u/s!AvhVGvaGC7Xq2egQBhg5RLJwRGeJNQ?e=38oyFQ) <br /> [link2](http://www.aut.upt.ro/~bgroza/projects/[ECUPrint]%20CAN%20voltage%20samples%20(full).zip) | ECUPrint complete voltage samples (contains voltage samples from previous two archives)
-**[ECUPrint] CAN logs.zip** | [link1](https://1drv.ms/u/s!AvhVGvaGC7Xqz9Z42wlG4iKsD6x0wg?e=cYZfXM) <br /> [link2](http://www.aut.upt.ro/~bgroza/projects/[ECUPrint]%20CAN%20logs.zip) | ECUPrint CAN logs
+**[ECUPrint] CAN voltage samples with ECU allocation.zip** | [link1 (University website)](http://www.aut.upt.ro/~bgroza/projects/[ECUPrint]%20CAN%20voltage%20samples%20with%20ECU%20allocation.zip) <br /> [link2 (OneDrive)](https://1drv.ms/u/s!AvhVGvaGC7Xq2egSV1cGK3Vbha2nSw?e=xUxPmY) | ECUPrint CAN voltage samples, allocated per ECU
+**[ECUPrint] CAN voltage samples under environmental variations.zip** | [link1 (University website)](http://www.aut.upt.ro/~bgroza/projects/[ECUPrint]%20CAN%20voltage%20samples%20under%20environmental%20variations.zip) <br /> [link2 (OneDrive)](https://1drv.ms/u/s!AvhVGvaGC7Xq2egRvgL_LE3JTRxvaQ?e=7hdqIh) | ECUPrint CAN voltage samples collected under environmental variations
+**[ECUPrint] CAN voltage samples (full).zip** | [link1 (University website)](http://www.aut.upt.ro/~bgroza/projects/[ECUPrint]%20CAN%20voltage%20samples%20(full).zip) <br /> [link2 (OneDrive)](https://1drv.ms/u/s!AvhVGvaGC7Xq2egQBhg5RLJwRGeJNQ?e=38oyFQ) | ECUPrint complete voltage samples (contains voltage samples from previous two archives)
+**[ECUPrint] CAN logs.zip** | [link1 (University website)](http://www.aut.upt.ro/~bgroza/projects/[ECUPrint]%20CAN%20logs.zip) <br /> [link2 (OneDrive)](https://1drv.ms/u/s!AvhVGvaGC7Xqz9Z42wlG4iKsD6x0wg?e=cYZfXM) | ECUPrint CAN logs
 
 # Folder structure #
 
@@ -301,10 +301,12 @@ Feel free to use our dataset for research purposes by giving credit to our paper
 L. Popa, B. Groza, C. Jichici and P-S. Murvay, "ECUPrint - Physical Fingerprinting Electronic Control Units on CAN Buses inside Cars and SAE J1939 Compliant Vehicles", IEEE Transactions on Information Forensics & Security, accepted 2022. [pdf](https://www.aut.upt.ro/~bgroza/Papers/ecuprint.pdf)
 
 ```
-@article{Popa22ECUPrint,
-title={ECUPrint - Physical Fingerprinting Electronic Control Units on CAN Buses inside Cars and SAE J1939 Compliant Vehicles},
+@article{popa2022ecuprint,
+title={ECUPrint—Physical Fingerprinting Electronic Control Units on CAN Buses Inside Cars and SAE J1939 Compliant Vehicles},
 author={Popa, Lucian and Groza, Bogdan and Jichici, Camil and Murvay, Pal-Stefan},
-journal={IEEE Transactions on Information Forensics & Security},
+journal={IEEE Transactions on Information Forensics and Security},
+volume={17},
+pages={1185--1200},
 year={2022},
 publisher={IEEE}
 }

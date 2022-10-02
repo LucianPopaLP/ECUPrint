@@ -283,7 +283,15 @@ File | Download | Notes
 
 **CAN logs** are stored in txt format and have data structured based on the XL driver library output from Vector (see documents from [Vector XL webpage](https://www.vector.com/int/en/products/products-a-z/libraries-drivers/xl-driver-library/#c75493) for more details).
 
-**Voltage data** is stored in csv format and have some metadata included before the raw voltage samples.. The metadata contains the following information in the first rows from each file:
+**Voltage data** is stored in csv format and have some metadata included before the raw voltage samples. Every file name contains a series of artifacts:
+
+[001]_0FD_extracted_extracted_ZERO_[0].csv includes \
+[001] as frame number , \
+0FD as frame identifier (hexadecimal) , \
+ZERO which means it is an isolated dominant bit , \
+[0] that number of isolated dominant bit from specified frame
+
+The **metadata** contains the following information in the first rows from each file:
 
 [ID (hexadecimal)], \
 [ID (decimal)], \

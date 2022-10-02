@@ -285,13 +285,13 @@ File | Download | Notes
 
 **Voltage data** is stored in csv format and have some metadata included before the raw voltage samples. Every file name contains a series of artifacts:
 
-[001]_0FD_extracted_extracted_ZERO_[0].csv includes \
+[001]\_0FD\_extracted\_extracted\_ZERO\_[0].csv includes \
 [001] as frame number , \
 0FD as frame identifier (hexadecimal) , \
 ZERO which means it is an isolated dominant bit , \
 [0] that number of isolated dominant bit from specified frame
 
-The **metadata** contains the following information in the first rows from each file:
+The **metadata** contains the following information in the first rows from each csv file:
 
 [ID (hexadecimal)], \
 [ID (decimal)], \
